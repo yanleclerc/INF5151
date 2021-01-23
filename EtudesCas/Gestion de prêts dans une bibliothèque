@@ -1,14 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T22:58:26.687Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8ewnvljkWNS5r1PVr_AD" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-23T15:51:22.999Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="QBe_Uz0eYhK3WGeeeAr1" version="14.1.1" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="946" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=12;align=center;labelX=327.64;" parent="1" vertex="1">
+        <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;UNE&lt;/b&gt; Bibliothèque&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=12;align=center;labelX=327.64;" parent="1" vertex="1">
           <mxGeometry x="317" y="295" width="1120" height="650" as="geometry" />
         </mxCell>
         <mxCell id="1672d66443f91eb5-23" value="Gestion de prêts dans une bibliothèque" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-1" value="Catalogue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-2" value="Champs de recherce&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-1">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-5" value="Livre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-6" value="Titre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-5">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-7" value="Auteur" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-5">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-8" value="Sujet&#xa;&#xa;ISBN&#xa;&#xa;#Bibliothèque&#xa;&#xa;Disponibilité(Status)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-5">
+          <mxGeometry y="78" width="140" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-9" value="Site Web" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-10" value="Poste Bibliothèque" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-12" value="Membre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="370" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-18" value="Compte" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="360" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-19" value="Livres" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-18">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-20" value="Montant" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-18">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-21" value="Paiement&#xa;&#xa;Réservation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fHmvfihmOntuPAfh2Elz-18">
+          <mxGeometry y="78" width="140" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="fHmvfihmOntuPAfh2Elz-23" value="Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
