@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T18:23:12.837Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="sHMnfX6yghQR8NCcHzv7" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T18:42:43.765Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="xtP7vlfp_77z9OY74G5l" version="14.4.3" type="github">
   <diagram id="PYlWYsyW5-wrVRnMgQhX" name="Page-1">
     <mxGraphModel dx="1580" dy="2049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,7 +202,7 @@
         <mxCell id="lTl9Fem6oyWZE7-2OYxX-84" value="sondage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lTl9Fem6oyWZE7-2OYxX-66" vertex="1">
           <mxGeometry y="46" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lTl9Fem6oyWZE7-2OYxX-85" value="sondage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lTl9Fem6oyWZE7-2OYxX-66" vertex="1">
+        <mxCell id="lTl9Fem6oyWZE7-2OYxX-85" value="commentaire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lTl9Fem6oyWZE7-2OYxX-66" vertex="1">
           <mxGeometry y="66" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lTl9Fem6oyWZE7-2OYxX-69" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="lTl9Fem6oyWZE7-2OYxX-7" target="lTl9Fem6oyWZE7-2OYxX-66" edge="1">
@@ -232,8 +232,8 @@
         <mxCell id="lTl9Fem6oyWZE7-2OYxX-80" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="260" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lTl9Fem6oyWZE7-2OYxX-81" value="Évalue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="230" width="50" height="20" as="geometry" />
+        <mxCell id="lTl9Fem6oyWZE7-2OYxX-81" value="évalue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="809" y="230" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lTl9Fem6oyWZE7-2OYxX-99" value="RelevéNotes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="17" width="160" height="146" as="geometry" />
